@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "elementals",
+	"version": "${version}",
+	"name": "Elementals",
+	"description": "Elementals adds elements, elementals and elemental reactions in order to spice up Minecraft combat.",
+	"authors": [
+		"Yelysei Simokop (_SigonS_)",
+		"galytsky"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "Be nice, don't be evil, do whatever you want.",
+	"icon": "assets/elementals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.name.elementals.Elementals"
+		],
+		"fabric-datagen": [
+			"com.name.elementals.ElementalsDataGenerator"
+		],
+		"client": [
+			"com.name.elementals.ElementalsClient"
+		]
+	},
+	"mixins": [
+		"elementals.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
