@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elementals:frost_powder"
+    },
+    {
+      "tag": "elementals:ice"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "elementals:frost_charge"
+  }
+}

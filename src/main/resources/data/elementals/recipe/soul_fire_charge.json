@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elementals:soul_fire_powder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+
+  ],
+  "result": {
+    "count": 3,
+    "id": "elementals:soul_fire_charge"
+  }
+}

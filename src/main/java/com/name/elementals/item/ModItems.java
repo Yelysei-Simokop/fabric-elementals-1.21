@@ -34,6 +34,15 @@ public class ModItems {
     public static final Item SCULK_POWDER = registerItem("sculk_powder", new Item(new Item.Settings()));
     public static final Item LIGHTNING_POWDER = registerItem("lightning_powder", new Item(new Item.Settings()));
     public static final Item FROST_POWDER = registerItem("frost_powder", new Item(new Item.Settings()));
+    //Charges
+    public static final Item SOUL_FIRE_CHARGE = registerItem("soul_fire_charge", new Item(new Item.Settings()));
+    public static final Item WATER_CHARGE = registerItem("water_charge", new Item(new Item.Settings()));
+    public static final Item EARTH_CHARGE = registerItem("earth_charge", new Item(new Item.Settings()));
+    public static final Item FLORAL_CHARGE = registerItem("floral_charge", new Item(new Item.Settings()));
+    public static final Item VOID_CHARGE = registerItem("void_charge", new Item(new Item.Settings()));
+    public static final Item SCULK_CHARGE = registerItem("sculk_charge", new Item(new Item.Settings()));
+    public static final Item LIGHTNING_CHARGE = registerItem("lightning_charge", new Item(new Item.Settings()));
+    public static final Item FROST_CHARGE = registerItem("frost_charge", new Item(new Item.Settings()));
     //Trial and Ominous Trial Keys
     public static final Item FIRE_TRIAL_KEY = registerItem("fire_trial_key", new Item(new Item.Settings()));
     public static final Item SOUL_FIRE_TRIAL_KEY = registerItem("soul_fire_trial_key", new Item(new Item.Settings()));

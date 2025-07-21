@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elementals:water_powder"
+    },
+    {
+      "tag": "elementals:ink_sacs"
+    },
+    {
+      "tag": "elementals:water_plants"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "elementals:water_charge"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "elementals:sculk_powder"
+    },
+    {
+      "tag": "elementals:sculk"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "elementals:sculk_charge"
+  }
+}

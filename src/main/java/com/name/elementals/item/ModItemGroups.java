@@ -38,6 +38,15 @@ public class ModItemGroups {
                         entries.add(ModItems.SCULK_POWDER);
                         entries.add(ModItems.LIGHTNING_POWDER);
                         entries.add(ModItems.FROST_POWDER);
+                        //Charges
+                        entries.add(ModItems.SOUL_FIRE_CHARGE);
+                        entries.add(ModItems.WATER_CHARGE);
+                        entries.add(ModItems.EARTH_CHARGE);
+                        entries.add(ModItems.FLORAL_CHARGE);
+                        entries.add(ModItems.VOID_CHARGE);
+                        entries.add(ModItems.SCULK_CHARGE);
+                        entries.add(ModItems.LIGHTNING_CHARGE);
+                        entries.add(ModItems.FROST_CHARGE);
                         //Trial and Ominous Trial Keys
                         entries.add(ModItems.FIRE_TRIAL_KEY);
                         entries.add(ModItems.SOUL_FIRE_TRIAL_KEY);

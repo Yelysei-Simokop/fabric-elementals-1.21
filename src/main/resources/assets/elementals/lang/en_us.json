@@ -25,6 +25,15 @@
   "item.elementals.lightning_powder": "Lightning Powder",
   "item.elementals.frost_powder": "Frost Powder",
 
+  "item.elementals.soul_fire_charge": "Soul Fire Charge",
+  "item.elementals.water_charge": "Water Charge",
+  "item.elementals.earth_charge": "Earth Charge",
+  "item.elementals.floral_charge": "Floral Charge",
+  "item.elementals.void_charge": "Void Charge",
+  "item.elementals.sculk_charge": "Sculk Charge",
+  "item.elementals.lightning_charge": "Lightning Charge",
+  "item.elementals.frost_charge": "Frost Charge",
+
   "item.elementals.fire_trial_key": "Fire Trial Key",
   "item.elementals.soul_fire_trial_key": "Soul Fire Trial Key",
   "item.elementals.wind_trial_key": "Wind Trial Key",
