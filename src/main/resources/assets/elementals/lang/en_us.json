@@ -17,5 +17,27 @@
   "item.elementals.void_powder": "Void Powder",
   "item.elementals.sculk_powder": "Sculk Powder",
   "item.elementals.lightning_powder": "Lightning Powder",
-  "item.elementals.frost_powder": "Frost Powder"
+  "item.elementals.frost_powder": "Frost Powder",
+
+  "item.elementals.fire_trial_key": "Fire Trial Key",
+  "item.elementals.soul_fire_trial_key": "Soul Fire Trial Key",
+  "item.elementals.wind_trial_key": "Wind Trial Key",
+  "item.elementals.water_trial_key": "Water Trial Key",
+  "item.elementals.earth_trial_key": "Earth Trial Key",
+  "item.elementals.floral_trial_key": "Floral Trial Key",
+  "item.elementals.void_trial_key": "Void Trial Key",
+  "item.elementals.sculk_trial_key": "Sculk Trial Key",
+  "item.elementals.lightning_trial_key": "Lightning Trial Key",
+  "item.elementals.frost_trial_key": "Frost Trial Key",
+  "item.elementals.ominous_fire_trial_key": "Ominous Fire Trial Key",
+  "item.elementals.ominous_soul_fire_trial_key": "Ominous Soul Fire Trial Key",
+  "item.elementals.ominous_wind_trial_key": "Ominous Wind Trial Key",
+  "item.elementals.ominous_water_trial_key": "Ominous Water Trial Key",
+  "item.elementals.ominous_earth_trial_key": "Ominous Earth Trial Key",
+  "item.elementals.ominous_floral_trial_key": "Ominous Floral Trial Key",
+  "item.elementals.ominous_void_trial_key": "Ominous Void Trial Key",
+  "item.elementals.ominous_sculk_trial_key": "Ominous Sculk Trial Key",
+  "item.elementals.ominous_lightning_trial_key": "Ominous Lightning Trial Key",
+  "item.elementals.ominous_frost_trial_key": "Ominous Frost Trial Key"
+
 }

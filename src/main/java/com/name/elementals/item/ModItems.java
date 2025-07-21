@@ -30,6 +30,27 @@ public class ModItems {
     public static final Item SCULK_POWDER = registerItem("sculk_powder", new Item(new Item.Settings()));
     public static final Item LIGHTNING_POWDER = registerItem("lightning_powder", new Item(new Item.Settings()));
     public static final Item FROST_POWDER = registerItem("frost_powder", new Item(new Item.Settings()));
+    //Trial and Ominous Trial Keys
+    public static final Item FIRE_TRIAL_KEY = registerItem("fire_trial_key", new Item(new Item.Settings()));
+    public static final Item SOUL_FIRE_TRIAL_KEY = registerItem("soul_fire_trial_key", new Item(new Item.Settings()));
+    public static final Item WIND_TRIAL_KEY = registerItem("wind_trial_key", new Item(new Item.Settings()));
+    public static final Item WATER_TRIAL_KEY = registerItem("water_trial_key", new Item(new Item.Settings()));
+    public static final Item EARTH_TRIAL_KEY = registerItem("earth_trial_key", new Item(new Item.Settings()));
+    public static final Item FLORAL_TRIAL_KEY = registerItem("floral_trial_key", new Item(new Item.Settings()));
+    public static final Item VOID_TRIAL_KEY = registerItem("void_trial_key", new Item(new Item.Settings()));
+    public static final Item SCULK_TRIAL_KEY = registerItem("sculk_trial_key", new Item(new Item.Settings()));
+    public static final Item LIGHTNING_TRIAL_KEY = registerItem("lightning_trial_key", new Item(new Item.Settings()));
+    public static final Item FROST_TRIAL_KEY = registerItem("frost_trial_key", new Item(new Item.Settings()));
+    public static final Item OMINOUS_FIRE_TRIAL_KEY = registerItem("ominous_fire_trial_key", new Item(new Item.Settings()));
+    public static final Item OMINOUS_SOUL_FIRE_TRIAL_KEY = registerItem("ominous_soul_fire_trial_key", new Item(new Item.Settings()));
+    public static final Item OMINOUS_WIND_TRIAL_KEY = registerItem("ominous_wind_trial_key", new Item(new Item.Settings()));
+    public static final Item OMINOUS_WATER_TRIAL_KEY = registerItem("ominous_water_trial_key", new Item(new Item.Settings()));
+    public static final Item OMINOUS_EARTH_TRIAL_KEY = registerItem("ominous_earth_trial_key", new Item(new Item.Settings()));
+    public static final Item OMINOUS_FLORAL_TRIAL_KEY = registerItem("ominous_floral_trial_key", new Item(new Item.Settings()));
+    public static final Item OMINOUS_VOID_TRIAL_KEY = registerItem("ominous_void_trial_key", new Item(new Item.Settings()));
+    public static final Item OMINOUS_SCULK_TRIAL_KEY = registerItem("ominous_sculk_trial_key", new Item(new Item.Settings()));
+    public static final Item OMINOUS_LIGHTNING_TRIAL_KEY = registerItem("ominous_lightning_trial_key", new Item(new Item.Settings()));
+    public static final Item OMINOUS_FROST_TRIAL_KEY = registerItem("ominous_frost_trial_key", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Elementals.MOD_ID, name), item);
@@ -40,25 +61,49 @@ public class ModItems {
 
         //Adds the item to the INGERDIENTS creative tab
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-                //Rods
-                entries.add(SOUL_BLAZE_ROD);
-                entries.add(TORRENT_ROD);
-                entries.add(CLOD_ROD);
-                entries.add(BLOOM_ROD);
-                entries.add(NULL_ROD);
-                entries.add(ECHO_ROD);
-                entries.add(BLITZ_ROD);
-                entries.add(FREEZE_ROD);
-                //Powders
-                entries.add(SOUL_FIRE_POWDER);
-                entries.add(WIND_POWDER);
-                entries.add(WATER_POWDER);
-                entries.add(EARTH_POWDER);
-                entries.add(FLORAL_POWDER);
-                entries.add(VOID_POWDER);
-                entries.add(SCULK_POWDER);
-                entries.add(LIGHTNING_POWDER);
-                entries.add(FROST_POWDER);
+            //Rods
+            entries.add(SOUL_BLAZE_ROD);
+            entries.add(TORRENT_ROD);
+            entries.add(CLOD_ROD);
+            entries.add(BLOOM_ROD);
+            entries.add(NULL_ROD);
+            entries.add(ECHO_ROD);
+            entries.add(BLITZ_ROD);
+            entries.add(FREEZE_ROD);
+            //Powders
+            entries.add(SOUL_FIRE_POWDER);
+            entries.add(WIND_POWDER);
+            entries.add(WATER_POWDER);
+            entries.add(EARTH_POWDER);
+            entries.add(FLORAL_POWDER);
+            entries.add(VOID_POWDER);
+            entries.add(SCULK_POWDER);
+            entries.add(LIGHTNING_POWDER);
+            entries.add(FROST_POWDER);
+            //Trial and Ominous Trial Keys
+            entries.add(FIRE_TRIAL_KEY);
+            entries.add(SOUL_FIRE_TRIAL_KEY);
+            entries.add(WIND_TRIAL_KEY);
+            entries.add(WATER_TRIAL_KEY);
+            entries.add(EARTH_TRIAL_KEY);
+            entries.add(FLORAL_TRIAL_KEY);
+            entries.add(VOID_TRIAL_KEY);
+            entries.add(SCULK_TRIAL_KEY);
+            entries.add(LIGHTNING_TRIAL_KEY);
+            entries.add(FROST_TRIAL_KEY);
+            entries.add(OMINOUS_FIRE_TRIAL_KEY);
+            entries.add(OMINOUS_SOUL_FIRE_TRIAL_KEY);
+            entries.add(OMINOUS_WIND_TRIAL_KEY);
+            entries.add(OMINOUS_WATER_TRIAL_KEY);
+            entries.add(OMINOUS_EARTH_TRIAL_KEY);
+            entries.add(OMINOUS_FLORAL_TRIAL_KEY);
+            entries.add(OMINOUS_VOID_TRIAL_KEY);
+            entries.add(OMINOUS_SCULK_TRIAL_KEY);
+            entries.add(OMINOUS_LIGHTNING_TRIAL_KEY);
+            entries.add(OMINOUS_FROST_TRIAL_KEY);
+
+
+
         });
     }
 }
