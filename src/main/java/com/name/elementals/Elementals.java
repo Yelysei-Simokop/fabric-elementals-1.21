@@ -1,5 +1,6 @@
 package com.name.elementals;
 
+import com.name.elementals.item.ModItemGroups;
 import com.name.elementals.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,7 @@ public class Elementals implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }

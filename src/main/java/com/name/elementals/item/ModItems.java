@@ -61,46 +61,7 @@ public class ModItems {
 
         //Adds the item to the INGERDIENTS creative tab
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            //Rods
-            entries.add(SOUL_BLAZE_ROD);
-            entries.add(TORRENT_ROD);
-            entries.add(CLOD_ROD);
-            entries.add(BLOOM_ROD);
-            entries.add(NULL_ROD);
-            entries.add(ECHO_ROD);
-            entries.add(BLITZ_ROD);
-            entries.add(FREEZE_ROD);
-            //Powders
-            entries.add(SOUL_FIRE_POWDER);
-            entries.add(WIND_POWDER);
-            entries.add(WATER_POWDER);
-            entries.add(EARTH_POWDER);
-            entries.add(FLORAL_POWDER);
-            entries.add(VOID_POWDER);
-            entries.add(SCULK_POWDER);
-            entries.add(LIGHTNING_POWDER);
-            entries.add(FROST_POWDER);
-            //Trial and Ominous Trial Keys
-            entries.add(FIRE_TRIAL_KEY);
-            entries.add(SOUL_FIRE_TRIAL_KEY);
-            entries.add(WIND_TRIAL_KEY);
-            entries.add(WATER_TRIAL_KEY);
-            entries.add(EARTH_TRIAL_KEY);
-            entries.add(FLORAL_TRIAL_KEY);
-            entries.add(VOID_TRIAL_KEY);
-            entries.add(SCULK_TRIAL_KEY);
-            entries.add(LIGHTNING_TRIAL_KEY);
-            entries.add(FROST_TRIAL_KEY);
-            entries.add(OMINOUS_FIRE_TRIAL_KEY);
-            entries.add(OMINOUS_SOUL_FIRE_TRIAL_KEY);
-            entries.add(OMINOUS_WIND_TRIAL_KEY);
-            entries.add(OMINOUS_WATER_TRIAL_KEY);
-            entries.add(OMINOUS_EARTH_TRIAL_KEY);
-            entries.add(OMINOUS_FLORAL_TRIAL_KEY);
-            entries.add(OMINOUS_VOID_TRIAL_KEY);
-            entries.add(OMINOUS_SCULK_TRIAL_KEY);
-            entries.add(OMINOUS_LIGHTNING_TRIAL_KEY);
-            entries.add(OMINOUS_FROST_TRIAL_KEY);
+
 
 
 
