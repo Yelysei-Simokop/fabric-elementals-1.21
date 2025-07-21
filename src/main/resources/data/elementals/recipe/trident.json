@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": {
+      "item": "elementals:torrent_rod"
+    },
+    "L": {
+      "item": "elementals:left_trident_tooth"
+    },
+    "I": {
+      "item": "elementals:middle_trident_tooth"
+    },
+    "J": {
+      "item": "elementals:right_trident_tooth"
+    }
+  },
+  "pattern": [
+    " LI",
+    " TJ",
+    "T  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:trident"
+  }
+}

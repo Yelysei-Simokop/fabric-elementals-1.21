@@ -15,6 +15,10 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.OMINOUS_FIRE_TRIAL_KEY))
                     .displayName(Text.translatable("itemgroup.elementals.elemetnals_items"))
                     .entries((displayContext, entries) -> {
+                        //Weapon Materials
+                        entries.add(ModItems.LEFT_TRIDENT_TOOTH);
+                        entries.add(ModItems.MIDDLE_TRIDENT_TOOTH);
+                        entries.add(ModItems.RIGHT_TRIDENT_TOOTH);
                         //Rods
                         entries.add(ModItems.SOUL_BLAZE_ROD);
                         entries.add(ModItems.TORRENT_ROD);

@@ -1,6 +1,10 @@
 {
   "itemgroup.elementals.elemetnals_items": "Elementals",
 
+  "item.elementals.left_trident_tooth": "Left Trident Tooth",
+  "item.elementals.middle_trident_tooth": "Middle Trident Tooth",
+  "item.elementals.right_trident_tooth": "Right Trident Tooth",
+
   "item.elementals.soul_blaze_rod": "Soul Blaze Rod",
   "item.elementals.bloom_rod": "Bloom Rod",
   "item.elementals.null_rod": "NULL Rod",

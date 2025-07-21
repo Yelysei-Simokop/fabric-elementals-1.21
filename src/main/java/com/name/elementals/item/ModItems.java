@@ -11,6 +11,10 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     //technically adds the item to minecraft
 
+    //Weapon Materials
+    public static final Item LEFT_TRIDENT_TOOTH = registerItem("left_trident_tooth", new Item(new Item.Settings()));
+    public static final Item MIDDLE_TRIDENT_TOOTH = registerItem("middle_trident_tooth", new Item(new Item.Settings()));
+    public static final Item RIGHT_TRIDENT_TOOTH = registerItem("right_trident_tooth", new Item(new Item.Settings()));
     //Rods
     public static final Item SOUL_BLAZE_ROD = registerItem("soul_blaze_rod", new Item(new Item.Settings()));
     public static final Item TORRENT_ROD = registerItem("torrent_rod", new Item(new Item.Settings()));
